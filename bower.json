@@ -1,0 +1,20 @@
+{
+  "name": "deployd.com",
+  "version": "0.0.1",
+  "authors": [
+    "Jeff Cross <middlefloor@gmail.com>"
+  ],
+  "license": "Apache 2",
+  "homepage": "deployd.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.3.13"
+  }
+}
