@@ -5,3 +5,4 @@ data
 app/bower_components/
 node_modules/
 build/
+npm-debug.log
