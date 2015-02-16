@@ -1,0 +1,6 @@
+{
+	"type": "S3Bucket",
+	"bucket": "s3-sandbox",
+	"key": "AKIAJWFXZWBF5S2ZLBHQ",
+	"secret": "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"
+}

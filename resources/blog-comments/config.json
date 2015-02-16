@@ -1,0 +1,29 @@
+{
+	"type": "Collection",
+	"properties": {
+		"created": {
+			"required": false,
+			"type": "number",
+			"typeLabel": "number",
+			"id": "created"
+		},
+		"commentText": {
+			"required": false,
+			"type": "string",
+			"typeLabel": "string",
+			"id": "commentText"
+		},
+		"commentor": {
+			"required": false,
+			"type": "string",
+			"typeLabel": "string",
+			"id": "commentor"
+		},
+		"post": {
+			"required": false,
+			"type": "string",
+			"typeLabel": "string",
+			"id": "post"
+		}
+	}
+}

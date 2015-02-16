@@ -1,0 +1,29 @@
+{
+	"type": "Collection",
+	"properties": {
+		"title": {
+			"required": false,
+			"type": "string",
+			"typeLabel": "string",
+			"id": "title"
+		},
+		"imageUrl": {
+			"required": false,
+			"type": "string",
+			"typeLabel": "string",
+			"id": "imageUrl"
+		},
+		"description": {
+			"required": false,
+			"type": "string",
+			"typeLabel": "string",
+			"id": "description"
+		},
+		"liveLink": {
+			"required": false,
+			"type": "string",
+			"typeLabel": "string",
+			"id": "liveLin"
+		}
+	}
+}
