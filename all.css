@@ -9895,7 +9895,7 @@ body.index .hero .demo .video-link {
   display: block;
   width: 670px;
   height: 340px;
-  background: url('/img/demo-screen.png');
+  background: url('/deployd.com/img/demo-screen.png');
 }
 body.index .hero .demo .video-link img {
   margin-left: 15px;
@@ -9926,7 +9926,7 @@ body.index .hero .supporting p {
   line-height: 20px;
 }
 body.index #video {
-  background: #363535 url('../img/video-lg.png');
+  background: #363535 url('/deployd.com/img/video-lg.png');
 }
 body.index #video img {
   width: 100%;
@@ -9939,7 +9939,7 @@ body.index #video img:hover {
   cursor: pointer;
 }
 body.index #hosting #video {
-  background: #363535 url('../img/video-sm.png');
+  background: #363535 url('/deployd.com/img/video-sm.png');
 }
 body.index #video-cta {
   text-align: center;
@@ -10224,7 +10224,7 @@ body > .container {
   width: 266px;
 }
 .docs-container #video {
-  background: #363535 url('../img/video-md.png');
+  background: #363535 url('/deployd.com/img/video-md.png');
 }
 .docs-container #video img {
   margin: 0;
@@ -10389,7 +10389,7 @@ footer .email-container input#mc-embedded-subscribe {
 #why-well {
   padding-bottom: 0;
   padding-top: 10px;
-  background: url('../img/bg-blue.png');
+  background: url('/deployd.com/img/bg-blue.png');
   border: solid 1px #a7bfbf;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
@@ -10512,7 +10512,7 @@ section.home-features .core-concepts .well {
 div.container-fluid.team-tailored {
   margin: 63px auto 0;
   background-color: #363535;
-  background: url('/img/hackathon.jpg');
+  background: url('/deployd.com/img/hackathon.jpg');
   background-size: cover;
   background-position: center center;
 }
@@ -10624,7 +10624,7 @@ body.index .hero .demo .video-link {
   display: block;
   width: 670px;
   height: 340px;
-  background: url('/img/demo-screen.png');
+  background: url('/deployd.com/img/demo-screen.png');
 }
 body.index .hero .demo .video-link img {
   margin-left: 15px;
@@ -10655,7 +10655,7 @@ body.index .hero .supporting p {
   line-height: 20px;
 }
 body.index #video {
-  background: #363535 url('../img/video-lg.png');
+  background: #363535 url('/deployd.com/img/video-lg.png');
 }
 body.index #video img {
   width: 100%;
@@ -10668,7 +10668,7 @@ body.index #video img:hover {
   cursor: pointer;
 }
 body.index #hosting #video {
-  background: #363535 url('../img/video-sm.png');
+  background: #363535 url('/deployd.com/img/video-sm.png');
 }
 body.index #video-cta {
   text-align: center;
