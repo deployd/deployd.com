@@ -34,14 +34,14 @@ module.exports = function (grunt) {
           'build/minified.js'
         ],
         // the location of the resulting JS file
-        dest: 'public/all.js'
+        dest: './all.js'
       },
       css: {
         src: [
           'build/less-compiled.css',
           'app/css/prettify.css'
         ],
-        dest: 'public/all.css'
+        dest: './all.css'
       }
     },
     htmlmin: {
@@ -52,7 +52,7 @@ module.exports = function (grunt) {
           removeRedundantAttributes: true
         },
         files: {
-          'public/index.html': 'app/templates/index.html'
+          './index.html': 'app/templates/index.html'
         }
       }
     },
@@ -65,7 +65,7 @@ module.exports = function (grunt) {
             src: [
               'favicon.ico',
             ],
-            dest: 'public/'
+            dest: './'
           },
           {
             expand: true,
@@ -73,7 +73,7 @@ module.exports = function (grunt) {
             src: [
               'img/**/*'
             ],
-            dest: 'public/'
+            dest: './'
           },
           {
             expand: true,
@@ -81,7 +81,7 @@ module.exports = function (grunt) {
             src: [
               'font/**/*'
             ],
-            dest: 'public/'
+            dest: './'
           },
           {
             expand: true,
@@ -89,7 +89,7 @@ module.exports = function (grunt) {
             src: [
               'angular.min.js.map'
             ],
-            dest: 'public/'
+            dest: './'
           }
         ]
       }
