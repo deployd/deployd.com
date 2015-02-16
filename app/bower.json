@@ -1,0 +1,14 @@
+{
+  "name": "deployd.com",
+  "version": "0.0.0",
+  "homepage": "http://deployd.com",
+  "authors": [
+    "Jeff Cross <middlefloor@gmail.com>"
+  ],
+  "main": "index.html",
+  "license": "Proprietary",
+  "private": true,
+  "dependencies": {
+    "angular": "1.2.13"
+  }
+}

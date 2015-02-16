@@ -1,0 +1,10 @@
+public
+public/*
+!examples/**/public
+.DS_Store
+.dpd
+data
+
+app/bower_components/
+node_modules/
+build/

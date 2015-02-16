@@ -1,0 +1,27 @@
+<div class="well">
+  
+  <form id="login">
+    <h2 class="login-heading">Login</h2>
+    <input type="text" placeholder="Email" id="email" /><br />
+    <input type="password" placeholder="*********" id="password" /><br />
+    <button type="submit" class="btn btn-primary">Login</button>
+    <button type="button" class="btn" id="logout">Logout</button>
+  </form>
+
+  <form id="upload-installers" class="hide" action="/installer-downloads" enctype="multipart/form-data" method="post">
+    <h2>Installers</h2>
+    <dl class="dl-horizontal">
+      <dt>Current Version</dt>
+      <dd class="version">...</dd>
+      <dt>Mac Installer</dt>
+      <dd class="mac-installer">...</dd>
+      <dt>Windows Installer</dt>
+      <dd class="win-installer">...</dd>
+    </dl>
+    <input type="file" name="upload" multiple="multiple" />
+    <button type="submit" class="btn btn-primary">Upload</button>
+    <div class="progress progress-striped active hide">
+      <div class="bar" style="width: 100%;"></div>
+    </div>
+  </form>
+</div>
