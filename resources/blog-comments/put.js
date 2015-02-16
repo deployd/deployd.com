@@ -1,2 +1,0 @@
-/* Readonly properties */
-// protect("creator");
