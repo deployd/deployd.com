@@ -1,0 +1,1 @@
+if (!internal) cancel();

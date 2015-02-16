@@ -1,0 +1,159 @@
+@import "/bootstrap/less/variables.less";
+@import "/bootstrap/less/mixins.less";
+
+body.index {
+  /**
+   * index
+   */
+
+
+  #intro {
+    text-align: center;
+    hr {
+      margin:19px auto;
+      border-top: @grayLight 1px solid;
+      width:50%;
+    }
+    h1 {
+      font-size:57px;
+      line-height: 100%;
+      margin-top:28px;
+      text-transform: uppercase;
+      font-weight:bold;
+    }
+    p {
+      font-size:24px;
+      line-height: 200%;
+    }
+  }
+
+  .hero {
+    .demo {
+      width:670px;
+      margin-left:75px;
+      padding:25px 0;
+      .video-link{
+        display:block;
+        width:670px;
+        height: 340px;
+        background:url('/img/demo-screen.png');
+        img {
+          margin-left:15px;
+          margin-top:-10px;
+          opacity:0.5;
+          -webkit-transition: opacity 0.1s;
+          -moz-transition: opacity 0.1s;
+          transition:opacity0.1s;
+        }
+        &:hover img {
+          opacity:0.75;
+        }
+      }
+    }
+    .supporting {
+      width:270px;
+      float:left;
+      margin: 73px 0 145px 48px;
+      h2 {
+        font-weight:normal;
+        text-transform: none;
+        color: #363535;
+        font-size:36px;
+        line-height:44px;
+        margin-bottom:15px;
+      }
+      p {
+        font-size:16px;
+        line-height:20px;
+      }
+    }
+  }
+
+  #video {
+    background: @black url('../img/video-lg.png');
+    img {
+      width: 100%;
+    }
+    img {
+      opacity: 0.75;
+      &:hover {
+        opacity: 1;
+        cursor: pointer;
+      }
+    }
+  }
+
+  #hosting {
+    #video {
+      background: @black url('../img/video-sm.png');
+    }
+  }
+
+  #video-cta {
+    text-align: center;
+    line-height: 14px;
+    margin-top: 10px;
+    font-size: 12px;
+  }
+
+  /**
+   * download cta
+   */
+
+  .download {
+    .platform {
+      text-align: center;
+      font-family: "Bitter";
+
+      img {
+        margin-bottom: 6px;
+      }
+    }
+
+    .cancel {
+      display: inline-block;
+      padding: 20px;
+    }
+
+
+    .install-version {
+      color: @grayLight;
+      display:inline-block;
+      margin-left:10px;
+    }
+    .btn {
+      padding:0 12px;
+      margin-right:6px;
+      margin-top: 0;
+      border:1px solid #3b898a;
+      #gradient.vertical(#429d96, #428f9e);
+      font-size: 19px;
+      line-height:41px;
+      font-weight:normal;
+      .play-icon {
+        margin-left:12px;
+      }
+    }
+    padding: 0;
+    h2, h3 {
+      color: @white;
+      margin-bottom: 0px;
+      text-align: center;
+    }
+    h3 {
+      font-size: 13px;
+    }
+  }
+
+  /*
+   Github and Twitter links under install button.
+  */
+  .home-install-row {
+    padding:23px 0;
+    border-top:#363535 solid 1px;
+  }
+  .project-social {
+    text-align: right;
+    padding-top:10px;
+  }
+  }
