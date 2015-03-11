@@ -14,7 +14,7 @@ angular.module('dpdApp', []).
               '<br>mac</a>',
             '</div>',
             '<div class="span1 platform">',
-              '<a target="_blank" href="https://bintray.com/artifact/download/deployd/dpd-win-installer/deployd-win-0.7.0.exe"><img src="img/win.gif">',
+              '<a target="_blank" href="https://bintray.com/artifact/download/deployd/dpd-win-installer/deployd-win-0.8.0.exe"><img src="img/win.gif">',
               '<br>win</a>',
             '</div>',
             '<div class="span1 platform">',
