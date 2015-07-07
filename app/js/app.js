@@ -6,7 +6,7 @@ angular.module('dpdApp', []).
         '<div>',
           '<span ng-hide="installCtrl.expanded">',
             '<a ng-click="installCtrl.expanded = true" class="btn-primary btn btn-large">Install deployd</a>',
-            '<span class="install-version">v0.8.0 preview - <a href="https://github.com/deployd/deployd">Apache 2.0 License</a></span>',
+            '<span class="install-version"><a href="https://www.npmjs.com/package/deployd"><img src="https://img.shields.io/npm/v/deployd.svg?style=flat-square"></a></span>',
           '</span>',
           '<span ng-show="installCtrl.expanded">',
             '<div class="span1 platform">',
