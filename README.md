@@ -3,8 +3,6 @@ This repository contains the source of the website [deployd.com](http://www.depl
 
 It is hosted via [github pages](https://pages.github.com/).
 
-### Run locally
-
 ### To update the website
 
 1. Create a new branch `git checkout -b new-change`
